@@ -1,0 +1,34 @@
+1678172368181:add-movie-rsocket --imdb aaa --title "RSocketland"
+1678172746781:add-movie-rsocket --imdb aaa --title RSocketland
+1678172757280:stacktrace
+1678172833598:add-movie-rsocket --imdb aaa --title "RSocketland"
+1678172912431:add-moive-rsocket aaa "Rsocket movie"
+1678172920530:stacktrace
+1678173304833:add-movie-rsocket "Rsocket movie"
+1678173718820:add-movie-rest --imdb "test imdb" --title "test title"
+1678173858858:add-movie-rest --imdb aaa --title rsocketland
+1678173927356:like-movie-rsocket a
+1678173946653:like-movie-rsocket --imdb a
+1678173977893:stacktrace
+1678173991425:like-movie-rsocket --imdb aaa
+1678174035565:like-movie-rest --imdb aaa
+1678174051399:get-movies-rsocket
+1678174058344:get-movies-rest
+1678174101059:select-movies-rsocket --imdbs aaa,bbb
+1678174119199:select-movies-rest --imdbs aaa,bbb
+1678174143310:stacktrace
+1678174189685:select-movies-rest --imdbs aaa,test imdb
+1678174245646:get-movie-rest --imdb aaa
+1678174477525:get-movies-rest
+1678174902608:clear
+1678174905623:help
+1678174943608:history
+1678174962888:version
+1678174968799:script
+1678175273126:help
+1678175410085:add-movie-rest --imdb 001 --title "movie 001"
+1678175420150:add-movie-rsocket --imdb 001 --title "movie 001"
+1678175523475:help
+1678177691720:add-movie-rsocket --imdb 002 --title "movie 002"
+1678177727640:get-movies-rsocket
+1678177981549:like-movie-rsocket --imdb 001
